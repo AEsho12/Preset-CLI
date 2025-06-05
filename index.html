@@ -600,6 +600,46 @@
             font-size: 0.875rem;
         }
 
+        /* Other Projects Section */
+        .other-projects {
+            padding: 6rem 2rem;
+            background: #f8fafc;
+        }
+
+        .project-card {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .project-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 1rem;
+        }
+
+        .project-description {
+            color: #64748b;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .project-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .nav-menu {
@@ -895,6 +935,28 @@
                         <p>Senior Developer at Stripe</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="other-projects">
+        <div class="section-header">
+            <div class="section-badge">More Tools</div>
+            <h2 class="section-title">Check out our other developer tools</h2>
+            <p class="section-description">
+                Discover more tools to enhance your development workflow
+            </p>
+        </div>
+        <div class="project-card animate-fade-in">
+            <div class="project-icon">🌱</div>
+            <h3 class="project-title">Spring CLI</h3>
+            <p class="project-description">
+                Create Spring Boot applications in seconds with a modern project structure.
+                Get started with interactive prompts and automatic setup.
+            </p>
+            <div class="project-links">
+                <a href="https://sprint-cli.vercel.app/" class="btn-secondary">Visit Website</a>
+                <a href="https://www.npmjs.com/package/spring-cli-create" class="btn-primary">View on npm</a>
             </div>
         </div>
     </section>

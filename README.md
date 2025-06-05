@@ -68,3 +68,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT © [AEsho12](https://github.com/AEsho12)
+
+## Other Projects
+
+### Spring CLI
+Create Spring Boot applications in seconds with a modern project structure. Get started with interactive prompts and automatic setup.
+
+- 🌱 **Interactive Setup**: Choose your dependencies and configuration through an intuitive command-line interface
+- 🏗️ **Modern Structure**: Get a well-organized project structure following Spring Boot best practices
+- ⚡ **Automatic Setup**: Maven Wrapper and other configurations are automatically set up for you
+- 🚀 **Quick Start**: Get your Spring Boot application up and running in minutes, not hours
+
+[Visit Website](https://sprint-cli.vercel.app/) | [View on npm](https://www.npmjs.com/package/spring-cli-create)
