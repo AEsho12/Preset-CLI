@@ -1,6 +1,6 @@
 {
   "name": "preset-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful command-line tool that helps you save and deploy project templates instantly",
   "main": "bin/index.js",
   "bin": {
